@@ -28,18 +28,3 @@ const binaryRecursion = function(arr, target) {
 // console.log(binaryRecursion(testArray, 12));
 
 
-
-// const binaryRecursion = function(arr, target) {
-
-//     let midIndex = Math.floor(arr.length / 2); //find a middle Index 
-//     // let midElement = arr[midIndex]; //difine the middle index element 
-
-//     if(target < arr[midIndex] && arr.length > 1){
-//         return binaryRecursion(arr.splice(0, arr[midIndex]), target);
-//     } else if(target > arr[midIndex] && arr.length > 1){
-//         return binaryRecursion(arr.splice(arr[midIndex], arr.length), target);
-//     } else {
-//         return false;
-//     }
-    
-// };
